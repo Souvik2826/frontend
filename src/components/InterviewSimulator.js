@@ -6,7 +6,7 @@ import { useApiKey } from '../context/ApiKeyContext';
 // Configure axios defaults
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'http://localhost:5025/api';
 
 const InterviewSimulator = () => {
   const { apiKey } = useApiKey();

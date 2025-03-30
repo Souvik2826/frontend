@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 className="home-title">Welcome to Interview Simulator</h1>
+      <h1 className="home-title">Welcome to Interview Simulator app</h1>
       <p className="home-subtitle">Practice interview questions powered by AI</p>
       
       <Link to="/interview" className="btn btn-large">
